@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.topwebbys">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Astrology" />
+        <activity android:name=".Blogging" />
+        <activity android:name=".Books" />
+        <activity android:name=".Cooking" />
+        <activity android:name=".DIY" />
+        <activity android:name=".Educational" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Fashion" />
+        <activity android:name=".Gaming" />
+        <activity android:name=".Health" />
+        <activity android:name=".Imageshare" />
+        <activity android:name=".Jobs" />
+        <activity android:name=".Knowledge" />
+        <activity android:name=".MD" />
+        <activity android:name=".Shopping" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Social" />
+        <activity android:name=".Tours" />
+        <activity android:name=".Main3Activity"></activity>
+    </application>
+
+</manifest>

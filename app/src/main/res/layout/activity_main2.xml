@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.topwebbys.Main2Activity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIES"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ast"/>
+
+                <TextView
+                android:text="Astrology"
+                android:textSize="20dp"
+                android:padding="10dp"
+                    android:layout_gravity="center_horizontal"
+                android:onClick="onClickAstrology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bl"/>
+
+                <TextView
+                    android:text="Blogging"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="onClickBlogging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bo"/>
+
+                    <TextView
+                        android:text="Books"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickBooks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/co"/>
+
+                    <TextView
+                        android:text="Cooking"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickCooking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/di"/>
+
+                    <TextView
+                        android:text="DIY"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickDIY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ed"/>
+
+                    <TextView
+                        android:text="Educational"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickEdu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ent"/>
+
+                    <TextView
+                        android:text="Entertainment"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickEntertainment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/fas"/>
+
+                    <TextView
+                        android:text="Fashion"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickFashion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gam"/>
+
+                    <TextView
+                        android:text="Gaming"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickGaming"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/health"/>
+
+                    <TextView
+                        android:text="Health and Fitness"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickHealth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img"/>
+
+                    <TextView
+                        android:text="Image Share"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickImgShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/jo"/>
+
+                    <TextView
+                        android:text="Job Search"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickJobs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/knoww"/>
+
+                    <TextView
+                        android:text="Knowledgeable"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickKnow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/matri"/>
+
+                    <TextView
+                        android:text="Matrimonial"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickMD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/shopping"/>
+
+                    <TextView
+                        android:text="Online Shopping"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickShopping"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/money"/>
+
+                    <TextView
+                        android:text="Payment Systems"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickPay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/social"/>
+
+                    <TextView
+                        android:text="Social Networking"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:onClick="onClickSocial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/tours"/>
+
+                    <TextView
+                        android:text="Tours and Travel"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="onClickTours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

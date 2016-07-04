@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Tours">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tt"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="1 | MakeMyTrip \n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Gurgaon, Haryana | Establishment – 2000 |\n\n
+
+MakeMyTrip.com has revolutionized the travel industry in India. Founded in the year 2000 makemytrip is an online travel company offering domestic and international travel services which comprises of flight, train and bus tickets, holiday packages, hotel reservations and other products and services.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+2 | Thomas Cook\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – London, UK | Establishment – 1881|\n\n
+Thomas Cook (India) Ltd is one of the leading travel companies in India operating in more than 98 cities and the worldwide offices are located in Sri Lanka and Mauritius. Services offered by Thomas Cook includes MICE, Corporate Travel Management, Foreign Exchange, Insurance, Leisure Travel and E-Business. Thomas Cook has been awarded the Most Trusted Brand in travel services by The Brand Trust Report™ and has won many prestigious awards in travel category.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+3 | Cox and Kings\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Mumbai, Maharashtra | Establishment – 1758 |\n\n
+Found in year 1758 Cox and Kings is the leader of the travel industry in India. Company’s Indian headquarter is located in Mumbai. Cox and Kings has 12 offices in India and global offices are located in UK, Japan, USA, Russia, Dubai and Singapore. The services offered by the company are Outbound Tourism, Destination Management, Domestic Holidays, Trade Fairs, Business Travel etc.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+4| Yatra\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Gurgaon, Haryana | Establishment – 2006 |\n\n
+Yatra.com is India’s premium tour operator offering all travel related services and products. It is one of the best travel companies in India providing all the information, availability, pricing details and bookings of domestic and international hotels, packages, train, flights and car rentals across 336 cities.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+5 | SOTC\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Mumbai, Maharashtra | Establishment – 1949 |\n\n
+India’s leading online travel company SOTC is Kuoni India’s travel brand. SOTC is among the top 10 travel companies in India having expertise in Escorted Tours, and Domestic Holidays, Free Individual Travel, Corporate tours, Trade Fair Tours and Customized Holidays.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+6 | Goibibo\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Gurgaon, Haryana | Establishment – 2009 |\n\n
+Goibibo.com a MIG Group company established in 2009 has overpowered its competitors to emerge as one among the best travel companies in India. The one-stop online travel company features various travel services and products which allows the user to explore the largest range of destinations and hotels with the world’s leading online travel company.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+7 | Expedia\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Bellevue, Washington, U.S.| Establishment – 1996 |\n\n
+Expedia, Inc. enables travelers to buy air tickets, hotels and holiday packages in any part of the world all from one place. Unlike other travel companies in India Expedia offers more than 75000 hotels and over 3000 holiday packages with additional features wherein a user can check the map and weather forecasts of the destination.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickt8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+8 | Cleartrip\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Corporate office – Mumbai, Maharashtra | Establishment – 2006 |\n\n
+Cleartrip.com is an online travel company headquartered in Mumbai. Cleartrip provides online travel services which includes and international holiday packages, reservations, rail tickets, flight tickets and bus tickets. Cleartrip is rated one of the reliable online travel companies in India.\n\n"/>
+
+</LinearLayout>
+</ScrollView>

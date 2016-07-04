@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Jobs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jj"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\n1. CareerBuilder\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+No list of best job search websites would be complete without this entry. CareerBuilder is one of the biggest job boards, and its robust search function allows you to filter by several criteria, including location, degree required and pay range. CareerBuilder partners with news media around the country and collects job listings from them. It also provides career advice and resources for candidates.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+2. Indeed\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+A huge aggregator of postings from across the Web, this site consolidates listings from many job boards in one place. It also compiles information from various company career pages and allows you to search locally or globally.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+3. Job.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This large site offers weekly job alerts, job search advice, a resume builder and, of course, job postings. This job search website also allows you to upload your resume for hiring managers and recruiters to search.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+4. TheLadders \n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This site focuses on job openings for upper-level executives and professionals who are aiming for the management suite.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+5. Robert Half\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+By visiting roberthalf.com, you can search thousands of job listings from the companies we work with around the world. Many of the opportunities we offer are exclusive to Robert Half and can't be found elsewhere, online or off. We also offer job search and career advice, a robust library of workplace research and information about what it's like to work for Robert Half.
+
+Job seekers, upload your resume and get access to thousands of professional development courses and compelling reports on industry and salary trends.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+6. LinkedIn\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This top networking site enables you to find jobs through your extended network. Additionally, you can join groups, participate in conversations and follow companies you find interesting and relevant to your job search. \n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+7. Glassdoor\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Job search website ​Glassdoor boasts a large database of company reviews — submitted by employees. Glassdoor promotes itself as giving job seekers insights into a company's work conditions, interview processes, salaries and benefits. In addition to providing job listings, Glassdoor allows employers to identify job candidates and market their companies to job seekers.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+8. Monster\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This massive job site is aptly named because it includes one of the largest number of job listings of any website. It also allows you to upload your resume and offers networking boards, as well as a search alert service so you can get targeted posts delivered via email.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickj9"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+9. SimplyHired\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This search engine offers an email alerts service and lets you save your job searches. Candidates can sort their searches to focus on companies that hire veterans, have a high rate of diversity and abide by eco-friendly practices, among other criteria.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+After exploring the above list of the best job search websites, you might consider registering with more than one site since each offers a slightly different experience and list of benefits. Good luck!\n\n"
+        />
+
+</LinearLayout>
+</ScrollView>

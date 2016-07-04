@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Health">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/fitness"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="1
+Menshealth.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Site contains daily tips and articles on fitness, nutrition, relationships, sex, career and lif…Moreestyle.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+2
+Mensfitness.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+A source for exercise, health and nutrition advice, and information on exercise programs, build…Moreing muscle, athletic performance and male sexuality.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="3
+Prevention.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Information about getting fit, losing weight, and living healthier lives from Prevention.com.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+4
+Self.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Find some of the stories that appear in the print magazine each month, health calculators, work…Moreout slide shows, and fitness forums.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+5
+Fitnessmagazine.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Fitness, beauty, wellness, food and other topics. Includes recipe finder and email newsletter.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+6
+24hourfitness.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Centers and health club locations worldwide, personal training, exercise classes.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+7
+Ideafit.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Supports the world's leading health and fitness professionals with credible information, educat…Moreion, career development and leadership.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+8
+Acefitness.org\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Non-profit organization, sets certification and education standards for personal trainers and g…Moreroup fitness instructors.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick9"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+9
+Goldsgym.com\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Co-ed gyms with locations worldwide. Includes gym locator, franchise information, and member re…Moresources.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick10"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+10
+Nasm.org\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="
+Get a personal trainer certification from NASM. Top rated trainer certification programs, study…More guides, exam prep, and advanced credentials.\n\n"/>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:src="@drawable/health"/>-->
+
+</LinearLayout>
+</ScrollView>

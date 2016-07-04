@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.topwebbys.Educational">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ee"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nAcademic Earth\n"
+        android:onClick="onClickAcad"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Thousands of video lectures from the world's top scholars.\n
+academicearth.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBig"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Big Think\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Video interviews with 600+ thought leaders in a range of fields.\n
+bigthink.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBright"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Brightstorm \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Short-form online video lessons by professional educators. Free math lessons.\n
+brightstorm.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCosmo"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+CosmoLearning\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Aggregator of free, online video lessons and documentaries.\n
+cosmolearning.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCoursera"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Coursera\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Lectures taught by world-class professors and reinforced through interactive exercises.\n
+coursera.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickEdx"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+EdX \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Courses designed specifically for interactive study via the web.\n
+edx.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFutures"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+The Futures Channel\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+High quality multimedia content ideal for use in the classroom.\n
+thefutureschannel.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickHowcast"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Howcast\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Professional and user-generated how-to videos.\n
+www.howcast.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickInternet"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Internet Archive\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Collection of more than two-hundred thousand free historical videos, many academic.\n
+archive.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickItunes"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+iTunes U\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Free lectures, language lessons, audiobooks, and more accessible via Apple iTunes.\n
+Apple iTunes - Apple iTunes Software\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickKhan"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Khan Academy\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Self-pased learning with extensive video library, interactive challenges, and assessments.\n
+khanacademy.org\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMath"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Math TV\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Professional video lessons in mathematics. Covers basic math through calculus.\n
+mathtv.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMITopen"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+MIT Open CourseWare\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Lectures and course materials for students, teachers, and self-learners.\n
+ocw.mit.edu \n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMIT"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+MIT Video\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Guide to more than 11,000 interesting MIT videos and lectures.\n
+video.mit.edu/\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNeok"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+NeoK12\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Aggregator of high-quality educational videos from around the Web.\n
+www.neok12.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickResearch"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Research Channel\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+3,500 videos from distinguished researchers and scholars.\n
+youtube.com/user/ResearchChannel\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPBS"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+PBS Video \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Free videos from your favorite PBS programs, including NOVA and Frontline.\n
+video.pbs.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSchoolTube"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+SchoolTube\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Video sharing platform for schools featuring original content created by students.\n
+www.schooltube.com\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSchool"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+SchoolsWorld \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Engaging, professional videos and practical resources for educator development.\n
+www.schoolsworld.tv\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSnag"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Snag Films \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Library of free, full-length documentary films.\n
+www.snagfilms.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTeacher"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Teacher Tube \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Online aggregator of educational videos.\n
+www.teachertube.com\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTED"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+TED \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Fascinating presentations by the world's leading thinkers and doers.\n
+www.ted.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickVideojug"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Videojug\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Collection of videos from professors, professionals, coaches, teachers, and consultants.\n
+www.videojug.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickWatch"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+WatchKnowLearn\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Comprehensive online directory of educational videos aggregated from across the Web.\n
+www.watchknowlearn.org\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickWonder"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="WonderHowTo\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Search engine and directory of free how-to videos.\n
+www.wonderhowto.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOpen"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Open Yale Courses \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Free access to a selection of introductory Yale courses.\n
+oyc.yale.edu\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickYou"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+YouTube EDU\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Free lectures from more than one hundred colleges and universities.\n
+www.youtube.com/edu  \n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOpen"
+        android:textSize="20sp"
+
+        android:text="
+
+Additional sites that are not free but offer outstanding content:\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBrain"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+BrainPop \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Provider of original, animated educational videos. Subscription required.\n
+www.brainpop.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCosmeo"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Cosmeo \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+30,000 video segments from Discovery Education. Subscription required.\n
+www.cosmeo.com  \n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickHulu"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Hulu Hulu\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Joint venture between NBC Universal and News Corp. Features TV shows and movies.\n
+www.hulu.com  |  Also see: PBS, National Geographic\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMeta"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Metacafe\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Specializes in short-form original video content.\n
+www.metacafe.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickVimeo"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+Vimeo \n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Upload, share, and explore user-generated videos.\n
+www.vimeo.com\n\n"/>
+
+
+</LinearLayout>
+</ScrollView>

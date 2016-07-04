@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Knowledge">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kk"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\nTED\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+If you are not just looking for information, but also inspiration, then TED.com is the website that will fulfill your needs. The Technology, Education, and Design oratory forums that take place in California are a collecting of inspiring and innovative minds. In fields ranging from architecture, dance, science, history, sociology, to philosophy and beyond, TED invites all great minds to present their concepts in 20-minute presentations.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Answerbag.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+While a rather informal website, Answerbag.com provides a great service to anyone who “just can’t remember how buoyancy works,” or “Am not sure who was the best baseball player of the 1970s.” Answerbag has a very simple concept and the right answer will be found sooner or later.
+
+It is a committee source website, which allows anyone to answer any question. Think of it as a worldwide way of just shouting out a random question to a group of friends. The best part is that when a proper answer comes across, it is likely multiple people will verify that it is the case.
+
+One of the best parts of Answerbag.com is that since it is informal, you do not have to be embarrassed if your question is rather random or silly. The thousands of individuals who frequent Answerbag likely have either an answer, or some useful insight.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+How Stuff Works\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+For those who are scientifically or design-oriented minds, HowSTuffWorks.com is a great site to answer the fundamental questions. You can simply type in your inquiry on the search page, and more than likely there will be a like, or similar, question that has already been answered. You can also browse through a great range of topics and areas of study. For the inquisitive mind, this site is a treasure-trove of interesting and practical facts.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Khan Academy\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+For those with a thirst for learning, who just found the lectures and dedication to be too much work, KhanAcademy.org has found the answer. Fit into small YouTube-sized videos are now information that is ever-growing, presented by the founder Mr. Kahn. You can learn about astronomy, how RNA turns to DNA, or learn about art history.
+
+The library of the Khan Academy is growing each week. With the growing of the site, so to can your knowledge grow.  Of course, these “classes” should not take the place of actual education, but they are great for studying for tests. There are also fantastic brainteasers, which test the mind and general knowledge.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Project Gutenberg\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+For those who have a love of reading, Gutenberg.org is a true Godsend. With over 38,000 books on tap, each is fully free and available for anyone to read at any time. With the advent of Kindles and IPads, which allow for comfortable digital reading, there has never been a better time to have the literary bug.
+
+There truly is a book for any genre and style of writing one could hope for. Not only can one read great classics, but there are thousands upon thousands of lesser-known books spanning across literary time. This adds an element of true excitement for the bibliophile.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickk6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Brain Pickings\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+If you are feeling like rolling the dice on what it is you might learn, then brainpickings.com is the site for you. Made by an MIT fellow, BrainPickings is a hodgepodge of art, history, science, anthropology, and so on. While the site itself may be a bit off-putting due to its rather highbrow nature, the site truly carries quite a punch when it comes to knowledge.\n\n
+
+"/>
+
+</LinearLayout>
+</ScrollView>

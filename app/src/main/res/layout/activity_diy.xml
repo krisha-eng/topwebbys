@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.topwebbys.DIY">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.INSTRUCTABLES\n\n"
+        android:onClick="onClickIns"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/instructables"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nBorn out of the MIT Media Lab, Instructables has grown into a mainstream website with a devoted following who post their DIY creations.\n
+DIY FOCUS: Technology, play, outside, workshop, food, and living.\n
+THE X FACTOR: Adding a bit of flair and competitive spirit to their DIY community, the site holds tons of contests centered around specific themes and invites their users to share their creations. Entries are first voted on by users and prize winners are selected by a panel of seasoned judges including Instructables staff and members of the community.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDIY"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="2.DOITYOURSELF.COM\n\n"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doityour"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nRepeatedly honored as one of the best DIY sites on the Web, users come here to get expert advice on home improvement and repair projects.\n
+DIY FOCUS: Home and lifestyle, including car repair and personal finance.\n
+THE X FACTOR: The site hosts extensive expert led forums that support DIY makers
+in their crafty endeavors in addition to informative how-to articles from choosing a basic color palette to repairing a leaky faucet.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.MAKE\n\n"
+        android:onClick="onClickMake"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/make"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nMerging DIY with gadgetry, Make magazine and its growing community of readers take a more technologically focused approach.\n
+DIY FOCUS: Electronics, workshop, craft, science, home and art and design\n
+THE X FACTOR: Make hosts a free online summer camp where kids ages 13 – 18 can go on virtual field trips and meet some of the most inventive creators out there.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.GREENUPGRADER\n"
+        android:onClick="onClickGreen"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nThe eco-friendly website is all about encouraging people to go green by providing articles and project ideas to incorporate greener living in an easy to apply way.\n
+DIY FOCUS: Crafts and home beautification projects with a sustainable edge\n
+THE X FACTOR: The site hosts the offbeat section which focuses on out-of-the-box thinking, humorous posts as well as funky creative green projects.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. DIY NETWORK\n"
+        android:onClick="onClickDIYNET"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/diynet"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nA television channel devoted to home improvement, where all of the shows have jumped on to the web with added features like how-to guides and helpful articles.\n
+DIY FOCUS: Every inch of home improvement\n
+THE X FACTOR: The TV hosts and resident DIY experts have videos and blogs where they share ideas that might not have made it on the air.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. CRAFTSTER\n"
+        android:onClick="onClickCraftster"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/craftster"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This funky online community is for the DIY hipster, with an eye towards the off-beat.\n
+DIY FOCUS: Knitting, cooking, jewelry and clothing\n
+THE X FACTOR: Craftster lists user generated locations of DIY and craft supply stores in every corner of the world.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. EHOW.COM\n"
+        android:onClick="onClickEhow"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ehow"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nThe extensive site covers around 30 different categories in the world of how-to, chock full of articles and tutorials.\n
+DIY FOCUS: Parties and entertaining, food, home and crafts\n
+THE X FACTOR: With over two million articles and videos, Ehow.com is a one-stop shop for expert advice from professionals in nearly every field.\n\n"/>
+
+
+</LinearLayout>
+</ScrollView>

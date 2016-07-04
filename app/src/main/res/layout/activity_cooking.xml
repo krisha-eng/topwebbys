@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Cooking">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="\nA list of Top Cooking Sites:\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.epicurious.com\n\n"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:onClick="onClickEpi"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:src="@drawable/epicurious"/>-->
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Epicurious is a collection of worlds classy delicious recipes.The section also comprises the famous and best recipes selected from all across the world such as best of chicken recipe ,
+    burger recipe, pie, salmon, salad and many more.If you are curious about the recipes, make notes, reviews, and save the list of the recipes then create your account right now.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+www.smartkitchen.com\n\n"
+        android:onClick="onClickSmartkitchen"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:src="@drawable/smartkitchen"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+This entire cooking website is dedicated to the beginners, intermediate and advance learners.The best thing about Smart Kitchen’s cooking lessons is that everything is organized in a progressive cooking curriculum, moving from the simplest cooking ideas to more complex culinary techniques. Just follow the Smart Kitchen cooking lesson plan like a culinary school online, or just choose which cooking videos to explore from any of the Beginning, Intermediate or Advanced Level and live the rest on Smartkitchen.com.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+www.allrecipes.co.in\n\n"
+        android:onClick="onClickAll"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:src="@drawable/allrecipes"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Recipes from all across the world.The site also conveys a huge collection of popular recipes such as Indian food, Veg, Non Veg, Sweets, Dishes for Different Occasions, World Cuisine and many more.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+www.learntocook101.com\n\n"
+        android:onClick="onClickLearn"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/learntocook"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Learn To Cook 101 is a great recipe site that has a long list of easy recipes for the beginners to start with.Recipes from all across the world such as hot crab bake, banana nut bread, apricot pie, and many others.
+
+ \n\n"/>
+
+
+</LinearLayout>
+</ScrollView>

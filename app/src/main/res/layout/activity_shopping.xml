@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Shopping">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ss"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\n1. Flipkart.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This one has to come first hands down. The entire country is completely dependent on Flipkart for nearly all their shopping needs. Flipkart sells everything from gift vouchers to electronics to home appliances. In fact, statistics claim that there are more items on flipkart than in a mall.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+2. Amazon.in\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+A large number of people from India swear by the services of amazon. Amazon and flipkart are always at war with each other and are always at close heels. Amazon has an equally large number of products as flipkart. In fact, Amazon apparently sells more than flipkart. Since amazon is an American company, it lacks the desi taste that would be preferred by an Indian. It would be wise to indianise its Indian domain. It would then be an instant hit amongst the masses.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+3. Snapdeal.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Snapdeal is a completely Indian website and is often preferred by the masses for its cheap rates. It sells products at really low prices and hence, is a favourite of the masses. It is a good idea to buy from Snapdeal if you are looking for absolutely cheap prices. However, there have been times when consumers have complained of the products of Snapdeal and hence, some of them stay away from Snapdeal.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+4. Jabong.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Jabong is again an American brand but seems to be doing very well in India. It has a large number of clothes and accessories for sale and is a complete paradise for those who love shopping for clothes. It has all kinds of products from western wear to desi kurtis and it would be fun to sit home and shop for clothes on jabong. Jabong is excessively preferred by women shoppers.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+5. Myntra.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+An equally large number of women favour myntra over jabong. Myntra also has a large number of accessories and clothes on its online portal. It has a large number of categories as well and one can buy from a category of their choices. From western to ethnic to traditional, all kinds of clothes are sold on myntra."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+6. Localbanya.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This is a website meant for shopping groceries and is a blessing for working women. It is also a blessing for the woman who is busy all the time. All of the grocery items are available over here and one can buy according to their needs. From organic to inorganic items, everything is available over here. Thus, localbanya.com is indeed one of the leading grocery shopping sites in India.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+7. Homeshop18\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+This is an equally popular website amongst online shoppers. Those who do not mind waiting a little extra for delivery at the reward of a lower price, order from here. A lot of times, the cheapest of items and the remotest of items are easily found on homeshop18.com. Thus, this site also has an equally large number of shoppers who are loyalists. However, homeshop18 cannot be trusted when one is in an emergency. You’d rather buy from one of the websites where they give express deliveries.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+8. Infibeam.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Infibeam.com is a place where you often find things that are not found anywhere else. The rarest of things, the rarest of books and the rarest of electronics and many other such items are easily found on infibeam.com. Infibeam.com has a long way to go before it comes higher up the ranks but it definitely isn’t doing badly so far.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks9"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+9. Shopclues.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Shopclues is famous for their heavily discounted best shopping deals. Shopclues is one of the best online stores that offers a wide variety of cameras, Computer accessories, Mobile, Gift, Jewellery, Cosmetics, toys, clothes, books and bag.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicks10"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+10. Firstcry.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Firstcry.com India’s largest store for Kids selling 70000+ items from 400+ top International and Indian brands.\n\n"/>
+
+
+</LinearLayout>
+</ScrollView>

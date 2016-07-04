@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.topwebbys.Entertainment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Best Source for Entertainment News\n\n"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickEonline"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text=" E! Online\n"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/eonl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nEonline is the most popular entertainment news source, providing us with information about almost everything that deals with the entertainment world. delivers breaking entertainment news and in-depth coverage on television, movies, music, celebrities, fashion, beauty and lifestyle – everything pop culture."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickIMDB"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\nIMDB\n"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/imdb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nIMDb (Internet Movie Database) is the world’s most popular and authoritative source for movie, TV and celebrity content. IMDb  is the #1 movie website in the world with a combined web and mobile audience"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="\n\nWatch TV/Movies online!\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNetflix"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="Netflix"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/netflix"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netflix is the world’s leading Internet television network with more than 36 million members in 40 countries enjoying more than one billion hours of TV shows and movies per month, including original series. For one low monthly price, Netflix members can watch as much as they want."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSeriesbunch"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\nSeries Bunch\n"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/series"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nWatch tv shows online free, free tv shows online, watch series online free streaming complete episodes in high quality at Seriesbunch.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAdder"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="Adder.tv\n"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/adder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nDownload and Watch Torrent TV Series Like a Boss.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Some other entertaining stuffs:"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:onClick="onClickPogo"
+        android:textSize="18sp"
+        android:textColor="#283593"
+    android:text="\n\n~  The Most Popular Gaming Portal: Pogo\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRoll"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="~  The Ultimate Source for Music News: Rolling Stone\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSpotify"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="~  All The Music you’ll ever Need: Spotify\n\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNine"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="~  Just For Fun: 9GAG\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFan"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="~  Wanna Catch a Movie Ticket? Fandango\n\n"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.topwebbys.Astrology">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nAstrology and Horoscope sites\n"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#283593"
+        android:text="www.horoscope.com \n\n"
+        android:onClick="onClickHoroscope"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#283593"
+        android:text=" www.astro.com\n\n"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickAstro" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="www.astrology.com\n\n"
+        android:textColor="#283593"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickAstrology" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#283593"
+        android:text="www.ganeshaspeaks.com\n\n"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickGanesha" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learning Astrology\n"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For OFFLINE methods, you can join any institute that teaches astrology. The two biggest institutes in India for learning astrology are \n\n"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. ICAS (Indian Council of Astrological Studies) \n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This institute was started by late Dr. B V Raman with the aim of imparting scientific astrological knowledge. They have various chapters throughout India where you can join and learn astrology. \n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. BVB (Bhartiya Vidya Bhawan) \n\n"
+    android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This institute was started by KN Rao for research purpose and imparting kmowledge in a pure technical and scientific manner. As far as i know they have institutes in Delhi and Bombay. To enroll in BVB u need to be atleast24 years of age \n\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONLINE SOURCES \n\n"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. KRS astrology \n\n"
+        android:textColor="#283593"
+        android:onClick="onClickKRS" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is one of the finest websites where you can gain astrological knowledge. He has a youtube channel as well by the name KRS. \n\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Light on Vedic Astrology \n\n"
+        android:textColor="#283593"
+        android:onClick="onClickVedic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A website where apart from learning astrological knowledge, you can see research articles as well. They maintain a forum as well. \n\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Nikhil's World \n\n"
+        android:textColor="#283593"
+        android:onClick="onClickNikhil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Another good website where you can find astrological articles in a scientific and logical manner. \n\n"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Saptarishis Astrology Magazine \n\n"
+        android:textColor="#283593"
+        android:onClick="onClickSap" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is an online magazine where various astrologers throughout the world contribute articles. Most of their content is derived from Nadi books but some really great articles are also available. They have an online bookshop as well and a youtube channel by the same name. They even conduct online courses. \n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOKS \n\n"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Learn, Think and Predict through astrology by CP Arora \n\n
+One of the books for beginners which covers all basic topics required to begin a journey in hindu astrology. \n\n
+
+2) Elements of Vedic Astrology by Dr. KS Charak \n\n
+This set of 2 volumes by Dr. KS charak is a nice book to get acquainted with different aspects of vedic/hindu astrology and learn how to cast a chart, how to judge vimshottari dashas and so on. \n\n
+
+3) Light on Life by Robert E Svoboda \n\n
+This book covers all the aspects and as the author says, he is writing the book to make the general public aware of hindu asrrology in the absence of Guru Shishya tradition. One of the most suggested beginner's book on astrology. \n\n
+
+4) Astrology for beginners and Hindu predictive astrology by Dr. BV raman \n\n
+These two books by the great legendary astrologer Dr. Bv raman teaches astrology in a simple yet effective manner. He has included his vast experience in the books. \n"
+        android:layout_alignParentTop="true" />
+
+</LinearLayout>
+    </ScrollView>

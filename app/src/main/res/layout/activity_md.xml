@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.MD">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mm"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\nShaadi.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Shaadi.com known as India’s best brand and the world’s popular matrimonial service it was founded since 1996. It define the way people meet for marriage, Shaadi.com has created a world-renowned service. What you have to do is just you need to register on the website. They will be provide freely. Enter your details and submit the registration form as per site instructions. If there is any matter of  urgency and you  need more benefits you may also select the premium membership by paying.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Jeevansathi.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+jeevansathi.com is also best  Indian Matrimonial. It has comes with a objective like  “We Match Better”. It was founded 2006. You may  access this Matrimonial Profiles by mother tongue, caste, religion, city, occupation, state, NRI, special cases etc.
+You may find out your dream partner all over in Indian. Jeevansathi.com gives  live help via a toll free number this offer only for   in India. You need to simply register with your details ans search for your behalf. Once you take  the premium membership you can have choose  like call/chat and email by paying. The membership plan has a very low  money as Rs. 200/- per month.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Simplymarry.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Simplymarry.com is know as best quality and  quick growing matrimonial website in India. basically simplymarry.com belongs to Times of India group. They are providing three types of paid packs like premium membership options to narrow your search and to find the best match. These paid pack we can also call as platinum membership, diamond membership or gold membership. Simplymarry.com is famous in world wide because they provide different offers to their customers. The system posses will be same as others sites like you have to register into their portal like email id, cell number and your family preferences, about your qualifications, caste, education , appearance, occupation and residence address etc.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Telugumatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Telugumatrimony is very popular in AndhraPradhesh. It is a pat of well know bharatmatrimony.com this website provide every thing free to user there is no need to pay any money. You will get free membership in this website. If you want register this website there are some terms and conditions like member ship profile for name,date of birth, gender, religion, mother tongue, caste, nationality etc.If you want extra features you may get by payment also it’s up to you.  This website offers to their customers like classic, classic Adventure, Classic premium and Assisted Matrimony. The payment process will starts from Rs.1200/month. They also provide different kind of search options like regular,advanced, soulmate,keyword etc.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Keralamatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Keralamatrimony.com is also a part of the BharatMatrimony. This website is only for Kerala people. Keralamatrimony.com has a objective like for happy arranged marriage. The BharatMatrimony site is Ranked as India’s Most Trusted and fast growing website in Matrimony Brand by The Brand Trust Report 2014. The website have so many branches all over India about 180 plus. They will give some guides to their customers if you have any interest you may contact nearest branch.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+M4marry.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+M4marry.com is one of the best trusted and popular matrimonial site in India. this website is only for Malayalam all over in India. just you need to simple register with the site by giving your contact details and basic information. There is option like the bride or groom’s parents, friends cans also create profile for them in behalf. M4marry.com provides freely. This website has a some extra level options like free photo adding option, horoscope etc. You may send interested candidates. If you are one of the members of  premium member  then you can have access to chat,contact details and sending personalized messages.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+Tamilmatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Tamilmatrimony.com is a part of the popular BharatMatrimony.com. it provides only for Tamil people all over in India.this branch basic settings and other features same as BharatMatrimony.com what you have to do is simple register your profile by giving basic details and contact information. This website also offers different kind of options like classic, classic advantage, or classic premium, if you want premium member ship you can get by payment it starts from Rs. 1200/month.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+
+ Hindimatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Hindimatrimony.com is also best know branch and part of the popular  BharatMatrimony.com this website provide  matches in and around the india who belong to  the language “Hindi”. You may  use this site to find matches from Bengali, Gujarati, Hindi, Marathi, Marwadi, oriya, punjabi etc. Registration and process are to follow are  same as other branches of BharatMatrimony.com. This website based on  religion, age, caste, Indian cities, occupation and country. You may choose from the wide list of Hindu, Muslim, christian, inter religion and no religious group of people. If you have any doubts  in dealing with the websites you can contact 24 x 7 hours otherwise you may on call  in toll free number.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm9"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+Bengalimatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Bengalimatrimony.com  is the trusted  matrimonial site. This site is only for  those lives in Bangladesh and the state of West Bengal in India. I provides super offers and facilities and option for finding the right person around India and other places.
+You need to simple register free by giving basic details like Matrimony Profile for, Name, Gender, Date of birth, Religion, Mother Tongue, Caste / Division, Country living in, Mobile No, E-mail ID and Login Password. BengaliMatrimony is also belong to BharatMatrimony.  The all system and process will be entirely same of the BharatMatrimony and all other branches.\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickm10"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+
+ Marathimatrimony.com\n\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+Marathimatrimony.com is the best and most famous matrimonial website which is a part of well know  BharatMatrimony. The website offers super searching options to select  the perfect  bride or groom based on your wishes. Simply full fill the following rules and instructions on  the website and register with your details and information.
+This website provides  registration is completely free. If there is any   urgency to get the best soul mate if you are member of premium member ship and you may have special offers and features based on your payment. The site works for mainly to find the soul mate in and around the  Maharashtra state in India.\n\n"/>/>
+
+</LinearLayout>
+</ScrollView>

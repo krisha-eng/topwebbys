@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Imageshare">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ii"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+1 | Instagram\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="2 | Imgur\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki3"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+3 | Flickr\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+4 | Photobucket\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+5 | Pinterest\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+6 | Shutterfly\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+7 | TinyPic\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki8"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+8 | 500px\n"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki9"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+9 | ImageShack\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicki10"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="
+10 | ImageVenue\n"/>
+
+
+</LinearLayout>
+</ScrollView>

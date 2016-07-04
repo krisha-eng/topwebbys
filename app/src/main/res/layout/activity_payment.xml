@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.topwebbys.Payment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The 10 Most Popular Online Payment Solutions\n\n"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp1"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="2CheckOut\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2CheckOut is a payment processor which is a combination of a merchant account and payment gateway that doesn’t require PayPal or a Merchant account. Simply register and verify your account and you can start accepting credit card payments, and even PayPal payments. The company also offers international payments, shopping cart stores, and a recurring billing feature.Pricing: 3.99% (if you apply by May 1, 2012), a $0.45 transaction fee and $10.99 monthly service fee."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp2"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="\n\nStripe\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you’re a developer, you should already be using Stripe. Developers use Stripe to integrate a payment system into their projects through Stripe’s robust API. This prevents the need for a merchant account, and also allows you to build your own payment forms that can bypass PCI requirements.Pricing: Stripe charges 2.9% + $0.30 per transaction with no setup or monthly fees.\n\n"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClickp3"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="#283593"-->
+        <!--android:text="ACH Payments\n\n"/>-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ACH Payments has several key features that make it one of the top payment systems around. Pros include: being able to make global payments, as well as serving as a payment gateway, merchant account, credit card processor, and mobile payment processor. It can also handle ACH payments and can be used as a payroll system.\n\n"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp4"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="WePay\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What makes WePay standout isn’t the fact that it’s a payment processor allowing internet merchants to accept credit cards and bank account payments online, it’s the fact it’s incredibly simple. In fact, you can begin accepting payments in under a minute. The only drawback is that it’s only available for U.S. citizens.Pricing: WePay charges a 3.5% transaction fee (with a $0.50 minimum) for credit card transactions and $0.50 for bank payments, with no setup or monthly costs.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp5"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="Authorize.Net\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authorize.Net is the Internet’s most widely used payment gateway.Pricing: Authorize.Net has a $99 setup fee, costs $20 per month and takes a $0.10 per-transaction fee.\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp6"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="PayPal\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PayPal payments are made using a user’s existing account or with a credit card. Money can be sent directly to an email address, thus prompting the users to sign up for a new PayPal account. In addition to taking payments, PayPal also allows its users to send money through the service, which is a feature that only a few payment solutions provide.
+
+Pricing: PayPal takes 2.9% + $0.30 per transaction and has no setup or monthly fees. \n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickp7"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        android:text="Amazon Payments\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazon Payments allows its users to receive money using its API (and to send money out via ACH). Popular crowdfunding site Kickstarter uses Amazon Payments.
+
+Pricing: Amazon Payments fees start at 2.9% + $0.30 per transaction for payments over $10 (the percentage they take is less for larger transactions). For payments under $10, the fee is 5.0% + $0.05 per transaction. \n\n"/>
+
+</LinearLayout>
+</ScrollView>
